@@ -25,3 +25,9 @@ function getFact() {
     .catch( err => console.log('You\'ve got an error'));
 }
 
+(function(){
+        year = new Date().getFullYear();
+        date = `${year}`;
+        date = document.getElementById('date').innerText = date;
+}());
+

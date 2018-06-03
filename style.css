@@ -24,7 +24,9 @@ body {
     width: 100%;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items:flex-start;
+    justify-content: space-between;
 }
 
 .main {
@@ -163,4 +165,13 @@ body {
     font-size: 1.8rem;
 }
 
+.footer {
+    width: 100%;
+}
+
+.footer__paragraph {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
 
