@@ -143,22 +143,6 @@ body {
     font-size: 1.6rem;
 }
 
-.enter-fact-btn {
-    height: 5rem;
-    width: 6rem;
-    background-image: linear-gradient(to right bottom,#ffb900,#ff7730);
-    border: none;
-    cursor: pointer;
-    font-size: 1.6rem;
-    color: #f4f4f4;
-    outline: none;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0,.30);
-}
-
-.enter-fact-btn:hover {
-    opacity: 0.8;
-}
-
 .fact-container {
     width: 80%;
     display: flex;
